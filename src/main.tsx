@@ -7,7 +7,8 @@ import enMessages from './locales/en.json';
 import jaMessages from './locales/ja.json';
 
 // 現在の言語を指定
-const locale = 'en';
+// const locale = 'en';
+const locale = 'ja';
 const messages = locale === 'en' ? enMessages : jaMessages;
 
 // IntlProviderでアプリをラップ

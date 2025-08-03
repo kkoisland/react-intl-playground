@@ -1,4 +1,5 @@
 import { FormattedMessage, FormattedDate, FormattedNumber, FormattedRelativeTime } from 'react-intl';
+import IntlHookExample from './IntlHookExample';
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
       <p>
         <FormattedRelativeTime value={minutesAgo} unit="minute" />
       </p>
+      {/* useIntlの表示（追加） */}
+      <IntlHookExample />
     </div>
   );
 }
