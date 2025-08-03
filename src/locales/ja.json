@@ -1,0 +1,5 @@
+{
+  "greeting": "こんにちは、{name}さん！",
+  "messages": "{count} 件のメッセージがあります。"
+}
+
