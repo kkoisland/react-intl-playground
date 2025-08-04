@@ -1,4 +1,6 @@
 {
   "greeting": "Hello, {name}!",
+  "hookGreeting": "Hello, {name}!",
+  "hookMessages": "You have {count} messages.",
   "messages": "You have {count} messages."
 }

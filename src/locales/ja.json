@@ -1,5 +1,6 @@
 {
   "greeting": "こんにちは、{name}さん！",
-  "messages": "{count} 件のメッセージがあります。"
+  "hookGreeting": "こんにちは、{name}さん！",
+  "messages": "{count} 件のメッセージがあります。",
+  "hookMessages": "{count} 件のメッセージがあります。"
 }
-

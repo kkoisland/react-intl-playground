@@ -10,10 +10,12 @@ function App() {
     <div>
       {/* FormattedMessage */}
       <h1>
-        <FormattedMessage id="greeting" values={{ name: 'Keiko' }} />
+        {/* <FormattedMessage id="greeting" values={{ name: 'Keiko' }} /> */}
+        <FormattedMessage id="greeting" defaultMessage="Hello, {name}!" values={{ name: 'Keiko' }} />
       </h1>
       <p>
-        <FormattedMessage id="messages" values={{ count: 5 }} />
+        {/* <FormattedMessage id="messages" values={{ count: 5 }} /> */}
+        <FormattedMessage id="messages" defaultMessage="You have {count} messages." values={{ count: 5 }} />
       </p>
 
       {/* FormattedDate */}
