@@ -10,7 +10,7 @@ function App() {
     <div>
       {/* FormattedMessage */}
       <h1>
-        <FormattedMessage id="greeting" values={{ name: 'Alice' }} />
+        <FormattedMessage id="greeting" values={{ name: 'Keiko' }} />
       </h1>
       <p>
         <FormattedMessage id="messages" values={{ count: 5 }} />

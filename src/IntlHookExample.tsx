@@ -3,7 +3,7 @@ import { useIntl } from 'react-intl';
 function IntlHookExample() {
   const intl = useIntl();
 
-  const greeting = intl.formatMessage({ id: 'greeting' }, { name: 'Alice' });
+  const greeting = intl.formatMessage({ id: 'greeting' }, { name: 'Keiko' });
   const messageCount = intl.formatMessage({ id: 'messages' }, { count: 5 });
 
     const today = new Date();

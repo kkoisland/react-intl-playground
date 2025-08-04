@@ -1,21 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import { IntlProvider } from 'react-intl';
+import AppWithProvider from './AppWithProvider';
 
-import enMessages from './locales/en.json';
-import jaMessages from './locales/ja.json';
-
-// 現在の言語を指定
-// const locale = 'en';
-const locale = 'ja';
-const messages = locale === 'en' ? enMessages : jaMessages;
-
-// IntlProviderでアプリをラップ
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <IntlProvider locale={locale} messages={messages}>
-      <App />
-    </IntlProvider>
+    <AppWithProvider />
   </React.StrictMode>
 );
